@@ -84,7 +84,8 @@
             this.cbFiguras.Items.AddRange(new object[] {
             "Triangulo",
             "Rectángulo",
-            "Rombo"});
+            "Rombo",
+            "Perimetro"});
             this.cbFiguras.Location = new System.Drawing.Point(83, 43);
             this.cbFiguras.Name = "cbFiguras";
             this.cbFiguras.Size = new System.Drawing.Size(139, 21);

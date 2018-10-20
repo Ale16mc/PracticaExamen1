@@ -29,7 +29,8 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Logica logica = new Logica();
+            tbResultado.Text = logica.PeriTiangulo(tbLado1.Text, tbLado2.Text, tbLado3.Text, cbFiguras.Text);
         }
     }
 }
